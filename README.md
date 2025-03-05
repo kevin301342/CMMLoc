@@ -1,7 +1,7 @@
 # CMMLoc
 This repository is the official implementation of our CVPR2025 paper: 
 
-[CMMLoc: Advancing Text-to-PointCloud Localization with Cauchy-Mixture-Model Based Framework].
+[CMMLoc: Advancing Text-to-PointCloud Localization with Cauchy-Mixture-Model Based Framework](https://arxiv.org/abs/2503.02593).
 
 ## Introduction
 We discover the partial relevance characteristc in language-based point cloud localization task in large-scale urban environments and propose a Cauchy-Mixture-Model based framework CMMLoc to tackle the challenge. Given a city-scale point cloud and a textual query describing a target location, CMMLoc identifies the most likely position corresponding to the described location within the map. By modeling submaps with a Cauchy Mixture Model and incorporating additional designs that facilitate fine-grained interactions, our CMMLoc significantly outperforms previous approaches.
