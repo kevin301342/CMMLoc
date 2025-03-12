@@ -62,7 +62,7 @@ The final directory structure should be:
 
 ## Load Pretrained Modules
 
-Our pre-trained models are publicly available [Here](https://www.dropbox.com/scl/fo/ge19rxdqafrlhmf0qts4a/AMzAbPEBbp6n-qGjLPIoisg?rlkey=3j0p10qyq58t5ws7i2ripp0l2&st=cj0dwaoc&dl=0). To run the evaluation, save them under
+Our pre-trained models are publicly available [Here](https://drive.google.com/drive/folders/1Hhml9yDpsuEzB4v8X1IXTMFpUHHUrSE0?usp=sharing). To run the evaluation, save them under
 
 ```
 ./checkpoints/coarse.pth
