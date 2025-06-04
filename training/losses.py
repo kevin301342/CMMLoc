@@ -8,7 +8,7 @@ import math
 
 from datapreparation.kitti360pose.imports import Object3d, Pose, Cell
 
-from models.cross_matcher0 import get_pos_in_cell, get_pos_in_cell_intersect
+from models.fine.cross_matcher import get_pos_in_cell, get_pos_in_cell_intersect
 
 
 class MatchingLoss(nn.Module):
