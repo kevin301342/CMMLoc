@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 
 import torch_geometric.nn as gnn
 import torch_geometric.transforms as T
-from models.language_encoder import get_mlp
+from models.coarse.language_encoder import get_mlp
 
 import numpy as np
 from easydict import EasyDict
