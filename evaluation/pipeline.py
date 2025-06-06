@@ -1,5 +1,4 @@
 import sys
-sys.path.append("/home/xuyl/Text2Loc")
 from datapreparation.kitti360pose.imports import Object3d
 import numpy as np
 import os
