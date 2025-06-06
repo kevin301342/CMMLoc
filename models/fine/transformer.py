@@ -15,7 +15,7 @@ import torch.nn.functional as F
 from torch import nn, Tensor
 import math
 import numpy as np
-from .attention import MultiheadAttention
+from models.fine.attention import MultiheadAttention
 
 class MLP(nn.Module):
     """ Very simple multi-layer perceptron (also called FFN)"""
