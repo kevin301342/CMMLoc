@@ -9,7 +9,7 @@ import networkx as nx
 
 from models.fine.language_encoder import get_mlp, LanguageEncoder
 from models.fine.object_encoder import ObjectEncoder
-from models.transformer import TransformerDecoderLayer
+from models.fine.transformer import TransformerDecoderLayer
 
 from datapreparation.kitti360pose.imports import Object3d as Object3d_K360
 
