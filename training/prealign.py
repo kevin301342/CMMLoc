@@ -366,8 +366,8 @@ if __name__ == "__main__":
     print("#####################")
     print("########   Folder Name: " + folder_name)
     print("#####################")
-    # if not osp.isdir(f"./checkpoints/{dataset_name}/{folder_name}"):
-    #     os.mkdir(f"./checkpoints/{dataset_name}/{folder_name}")
+    if not osp.isdir(f"./checkpoints/{dataset_name}/{folder_name}"):
+        os.mkdir(f"./checkpoints/{dataset_name}/{folder_name}")
 
     """
     Create data loaders
