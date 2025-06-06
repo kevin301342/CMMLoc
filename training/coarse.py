@@ -1,7 +1,6 @@
 """Module for training the coarse cell-retrieval module
 """
 import sys
-sys.path.append("/home/xuyl/Text2Loc")
 import torch
 import torch.nn as nn
 import torch.optim as optim
