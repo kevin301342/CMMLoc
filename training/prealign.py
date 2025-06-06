@@ -1,5 +1,4 @@
 import sys
-sys.path.append("/home/xuyl/Text2Loc")
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
