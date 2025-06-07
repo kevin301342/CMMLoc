@@ -65,7 +65,7 @@ def parse_arguments():
     parser.add_argument("--pointnet_variation", type=int, default=0)
     parser.add_argument("--pointnet_numpoints", type=int, default=256)
     parser.add_argument(
-        "--pointnet_path", type=str,
+        "--pointnet_path", type=str,default="PATH_TO_POINTNET"
     )
     parser.add_argument("--pointnet_freeze", action="store_true")
     parser.add_argument("--pointnet_features", type=int, default=2)
