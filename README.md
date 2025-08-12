@@ -1,5 +1,5 @@
 # CMMLoc
-This repository is the official implementation of our CVPR2025 paper: 
+This repository is the official implementation of our CVPR 2025 paper: 
 
 [CMMLoc: Advancing Text-to-PointCloud Localization with Cauchy-Mixture-Model Based Framework](https://arxiv.org/abs/2503.02593).
 
